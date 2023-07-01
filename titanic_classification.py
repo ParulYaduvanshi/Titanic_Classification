@@ -1,8 +1,8 @@
 from sklearn.tree import DecisionTreeClassifier
 import pandas as pd
 import matplotlib.pyplot as plt
-titanic_train=pd.read_csv("C:/Users/Admin/OneDrive/Desktop/train.csv")
-titanic_test=pd.read_csv("C:/Users/Admin/OneDrive/Desktop/test.csv")
+titanic_train=pd.read_csv("C:/Users/Admin/OneDrive/Desktop/train.csv")    #change paths according to your csv locations.
+titanic_test=pd.read_csv("C:/Users/Admin/OneDrive/Desktop/test.csv")      #change paths according to your csv locations.
 titanic_train.head()    #top 5 records
 titanic_train.shape   #total no. of records & columns
 print(titanic_train['Survived'].value_counts())    #no. of counts of different type  of values stored
