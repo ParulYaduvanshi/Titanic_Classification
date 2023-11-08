@@ -1,4 +1,4 @@
-
+# Titanic-Classification
 The Titanic classification ML project is a popular beginner-friendly machine learning task that involves predicting whether a passenger on the Titanic survived or not based on various factors such as their age, gender, class, and cabin location. This project is often used to introduce students and newcomers to machine learning concepts and techniques.
 
 Data Preparation
